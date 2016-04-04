@@ -1,13 +1,7 @@
-README
-===========================
-该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
+# Introduction
+This is a brief English introduction to `GitHub Flavored Markdown`, or `GFM`. Markdown has been adopted for its implicity and expressiveness over a wide range of applications and the specfic version from GitHub adds a myriad of extensions to it, only making it more than popular among programmers.
 
-****
-###　　　　　　　　　　　　Author:Jelly
-###　　　　　　　　　 E-mail:Jelly.K.Wang@qq.com
-
-===========================
-
+Now we are going to explore a little bit in depth of it.
 
 
 ##<a name="index"/>目录
@@ -264,11 +258,12 @@ Content Cell  | Content Cell
 | ---- | ---- |
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") | baidu
 
-##<a name="emoji"/>添加表情
-Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
+#<a name="emoji"/>Emoji
+GFM supports Emoji naively. To display emoji, surround the name of the expression with two `:s`.  
+E.g. `:blush:` :blush:  
 
-比如`:blush:`，可以显示:blush:。
+GitHub has a [Emoji cheatsheet](http://www.emoji-cheat-sheet.com), but for your convenience I've also included it in the [repo](./emoji.md).
 
-具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
+# Acknowledgement
 
-但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
+I'm grateful for developers of [Markdown Tutorial](http://www.markdowntutorial.com/) which provides basics and fundamentals on how to write a startup Markdown file,  for his thorough explaination of GFM in Chinese and authors of the Markdown Cheat Sheet whose summarization is right to the point.
