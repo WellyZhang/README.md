@@ -82,14 +82,14 @@ To specify hierarchy, preface blanks.
 Plese note to indent one more space than the preceding one.
 * to  
  * make 
-  * it
+   * it
 
 ### Numbering
 \* could be replaced by a number following by a dot and a blank space. Similar hierarchy is also available, just remember every level starts with 1\.  
 
 1. Place  
  1. Do not 
-  1. Start with 1\.1  
+   1. Start with 1\.1  
 
 ### Task Lists
 Task lists start with - and a space followed by a [], which if filled with x or a space.
@@ -153,4 +153,4 @@ GitHub has a [Emoji cheatsheet](http://www.emoji-cheat-sheet.com), but for your 
 
 # Acknowledgement
 
-I'm grateful for developers of [Markdown Tutorial](http://www.markdowntutorial.com/) which provides basics and fundamentals on how to write a startup Markdown file,  for his thorough explaination of GFM in Chinese and authors of the Markdown Cheat Sheet whose summarization is right to the point.
+I'm grateful for developers of [Markdown Tutorial](http://www.markdowntutorial.com/) which provides basics and fundamentals on how to write a startup Markdown file, @guodongxiaren for his thorough explaination of GFM in Chinese and authors of the Markdown Cheat Sheet whose summarization is right to the point.
