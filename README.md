@@ -1,4 +1,4 @@
-# README Markdown
+# README.md
 # <a name='top'>Introduction</a>
 This is a brief English introduction to `GitHub Flavored Markdown`, or `GFM`. Markdown has been adopted for its implicity and expressiveness over a wide range of applications and the specfic version from GitHub adds a myriad of extensions to it, only making it more than popular among programmers.
 
@@ -72,7 +72,7 @@ But note here that text in square bracets would not be shown(so that component c
 ## Lists
 
 ### Bullet Points
-Preface each line with an asterist \* to
+Preface each line with an asterisk \* to
 * make  
 * a  
 * list.
@@ -125,8 +125,8 @@ emotion()
 If you do not indicate the language you use, it will only be a darkened text block.
 
 ## Tables
-Each entry should be seperated or enclosed by \|. Besides, headers are distinguished by ---- following in the next line also sepereated by \|. Note that entries could be images.
-To sed alignmetn mode, append : on either or both sides of each entry.
+Each entry should be seperated or enclosed by \|. Besides, headers are distinguished by ----(header line) following in the next line also sepereated by \|. Note that entries could be images.
+To set alignment, append : on either or both sides of header line.
 
 | Name | Description |
 | ------------- | ----------- |
