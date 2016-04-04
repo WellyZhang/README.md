@@ -3,93 +3,54 @@ This is a brief English introduction to `GitHub Flavored Markdown`, or `GFM`. Ma
 
 Now we are going to explore a little bit in depth of it.
 
+Note that GFM also supports HTML.
 
-##<a name="index"/>目录
-* [横线](#line)
-* [标题](#title)
-* [文本](#text)
-    * 普通文本
-    * 单行文本
-    * 多行文本
-    * 文字高亮
-* [链接](#link) 
-    * 文字超链接
-        *  链接外部URL
-        *  链接本仓库里的URL
-    *  锚点
-    * [图片超链接](#piclink)
-* [图片](#pic)
-    * 来源于网络的图片
-    * GitHub仓库中的图片
-* [列表](#dot)
-    * 圆点列表
-    * 数字列表
-    * 复选框列表
-* [块引用](#blockquotes)
-* [代码](#code)
-* [表格](#table) 
-* [表情](#emoji)
+# Index
+* [Headers](#headers)
+* [Text](#text)
+ * 普通文本
+ * 单行文本
+ * 多行文本
+ * 文字高亮
+* [Links](#link) 
+ * 文字超链接
+  * 链接外部URL
+  * 链接本仓库里的URL
+ * 锚点
+ * [图片超链接](#piclink)
+* [Images](#pic)
+ * 来源于网络的图片
+ * GitHub仓库中的图片
+* [Lists](#dot)
+ * 圆点列表
+ * 数字列表
+ * 复选框列表
+* [Blockquotes](#blockquotes)
+* [Code](#code)
+* [Table](#table) 
+* [Emoji](#emoji)
 
-<a name="line"/>
-##***、---、___显示虚横线
-***
----
-___
+## <a name="headers"/> Headers
+Use 1 ~ 6 '#'s to indicate header level. You can't really make a header bold, but you can italicize certain words(to be discussed later).
 
-
-
-<a name="title"/>
-#一级标题
-##二级标题
-###三级标题
-####四级标题
-#####五级标题
-######六级标题
+# Header One
+## Header Two
+### Header Three
+#### Header Four
+##### Header Fix
+###### Header Six
+###### _Italic Header Six_
 
 
-##<a name="text"/>显示文本
-###普通文本
-这是一段普通的文本
-####关于换行
-直接回车不能换行，<br>
-可以使用\<br>。
-但是使用html标签就丧失了markdown的意义。  
-可以在上一行文本后面补两个空格，  
-这样下一行的文本就换行了。
+## <a name="text"/> Text
+### Italics
+Surround words with underscores `_`s to _italicize_ words.
+### Bold
+Surround words with two asterisks `*`s to make them *bold*.
+### Straigh-through
 
-或者就是在两行文本直接加一个空行。
-
-也能实现换行效果，不过这个行间距有点大。
-###单行文本
-    Hello,大家好，我是果冻虾仁。
-###文本块
-    欢迎到访
-    很高兴见到您
-    祝您，早上好，中午好，下午好，晚安
-###部分文字高亮
-Thank `You` . Please `Call` Me `Coder`
-####高亮功能更适合做一篇文章的tag
-例如:<br>
-`java` `网络编程` `Socket` `全双工`
-####删除线
-这是一个 ~~删除线~~
-####斜体
-*斜体1*
-
-_斜体2_
-####粗体
-**粗体1**
-
-__粗体2__
-
-####组合使用粗体、斜体和删除线
-***斜粗体1***
-
-___斜粗体2___
-
-***~~斜粗体删除线1~~***
-
-~~***斜粗体删除线2***~~
+### Hightlight
+Surround words with `\`\` to `highlight` them 
 
 ##<a name="link"/>链接
 ###链接外部URL
@@ -259,7 +220,7 @@ Content Cell  | Content Cell
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") | baidu
 
 #<a name="emoji"/>Emoji
-GFM supports Emoji naively. To display emoji, surround the name of the expression with two `:s`.  
+GFM supports Emoji naively. To display emoji, surround the name of the expression with two `:`s.  
 E.g. `:blush:` :blush:  
 
 GitHub has a [Emoji cheatsheet](http://www.emoji-cheat-sheet.com), but for your convenience I've also included it in the [repo](./emoji.md).
