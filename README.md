@@ -56,35 +56,28 @@ Links could be incomplete with file-system-like paths such as
 ### Anchors as Links
 Use HTML # to set anchors, for example your intention to return to the [top](#top) now.
 
-##<a name="pic"/>显示图片
-###来源于网络的图片
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-![](https://assets-cdn.github.com/images/modules/contact/goldstar.gif)
-
-###GitHub仓库中的图片
-![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
-###<a name="piclink">给图片加上超链接
-####第一种
-
-[![head]](http://blog.csdn.net/guodongxiaren/article/details/23690801)
-[head]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/jianxin.jpg "点击图片进入我的博客"
-
-#### 第二种
-[![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)
+## Images
+### Images as Links
+In GFM, images could be displayed by the Link grammer with a minor modification of a preceding !.  
+But note here that text in square bracets would not be shown(so that component could be empty), and if you want to add links to your image treat the entire image grammer, the preceding ! included,  as text in the link grammar.
+![First Father](http://octodex.github.com/images/founding-father.jpg "First Father")
+[![Second Father](http://octodex.github.com/images/foundingfather_v2.png "Second Father")](http://www.github.com)
 
 
 
 
-##<a name="dot"/>列表
-###圆点列表
-* 昵称：果冻虾仁
-* 别名：隔壁老王
-* 英文名：Jelly
+## Lists
+### Bullet Points
+Preface each line with an asterist \* to
+* make
+* a
+* list.  
 
-###更多圆点
-* 编程语言
-    * 脚本语言
-        * Python
+### Grouping
+To specify hierarchy, preface blanks.
+* to
+ * make
+  * it.
 
 ###数字列表
 ####一般效果
