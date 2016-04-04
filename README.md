@@ -5,32 +5,7 @@ Now we are going to explore a little bit in depth of it.
 
 Note that GFM also supports HTML.
 
-# Index
-* [Headers](#headers)
-* [Text](#text)
- * 普通文本
- * 单行文本
- * 多行文本
- * 文字高亮
-* [Links](#link) 
- * 文字超链接
-  * 链接外部URL
-  * 链接本仓库里的URL
- * 锚点
- * [图片超链接](#piclink)
-* [Images](#pic)
- * 来源于网络的图片
- * GitHub仓库中的图片
-* [Lists](#dot)
- * 圆点列表
- * 数字列表
- * 复选框列表
-* [Blockquotes](#blockquotes)
-* [Code](#code)
-* [Table](#table) 
-* [Emoji](#emoji)
-
-## <a name="headers"/> Headers
+## Headers
 Use 1 ~ 6 '#'s to indicate header level. You can't really make a header bold, but you can italicize certain words(to be discussed later).
 
 # Header One
@@ -42,17 +17,26 @@ Use 1 ~ 6 '#'s to indicate header level. You can't really make a header bold, bu
 ###### _Italic Header Six_
 
 
-## <a name="text"/> Text
+## Text
 ### Italics
-Surround words with underscores `_`s to _italicize_ words.
+Surround words with underscores \_ to _italicize_ words.
 ### Bold
-Surround words with two asterisks `*`s to make them *bold*.
+Surround words with two asterisks \*\* to make them **bold**.
+### Combination of Italics and Bold
+Surround with \*\*\_ like **_Italics and Bold_**.
 ### Straigh-through
-
+Surround words with ~~ for ~~straight-through~~.
 ### Hightlight
-Surround words with `\`\` to `highlight` them 
+Surround words with \` to `highlight`.
+### Escape
+Use \ for for escape.
+### Newline
+Use double blanks at the end of each line for soft break  
+while use /n between lines for hard break such as
 
-##<a name="link"/>链接
+this.
+
+## Links
 ###链接外部URL
 [我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")   语法如下：
 ```
