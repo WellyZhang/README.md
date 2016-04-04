@@ -1,9 +1,8 @@
-Emoji表情
-=========
-将对应emoji表情的符号码复制后输入你的markdown文本即可显示emoji表情。
-如`:blush:`，显示为:blush:
+# Emoji
+Use emoji code to display emoji  
+E.g. `:blush:` :blush:
 
-## 人物
+## Facial Expression
 
 |syntax|preview|syntax|preview|syntax|preview|
 |:-------:|:---:|:------:|:-----:|:------:|:---:|
@@ -73,7 +72,7 @@ Emoji表情
 |`:rage2:`|:rage2:|`:rage3:`|:rage3:|`:rage4:`|:rage4:|
 |`:suspect:`|:suspect:|`:trollface:`|:trollface:||||
 
-## 自然
+## Nature
 
 |syntax|preview|syntax|preview|syntax|preview|
 |:-------:|:---:|:------:|:-----:|:------:|:---:|
@@ -117,7 +116,7 @@ Emoji表情
 |`:partly_sunny:`|:partly_sunny:|`:octocat:`|:octocat:|`:squirrel:`|:squirrel:|
 |`:waxing_gibbous_moon:`|:waxing_gibbous_moon:||||||
 
-## 物体
+## Objects
 
 |syntax|preview|syntax|preview|syntax|preview|
 |:-------:|:---:|:------:|:-----:|:------:|:-----:|
@@ -209,7 +208,7 @@ Emoji表情
 |`:sweet_potato:`|:sweet_potato:|`:eggplant:`|:eggplant:|`:tomato:`|:tomato:|
 |`:corn:`|:corn:||||||
 
-## 地点
+## Location
 
 |syntax|preview|syntax|preview|syntax|preview|
 |:-------:|:---:|:------:|:-----:|:------:|:-----:|
@@ -250,7 +249,7 @@ Emoji表情
 |`:ru:`|:ru:|` :gb:`| :gb:|` :uk:`| :uk:|
 |`:de:`|:de:||||||
 
-## 符号
+## Symbols
 
 |syntax|preview|syntax|preview|syntax|preview|
 |:-------:|:---:|:------:|:-----:|:------:|:-----:|
