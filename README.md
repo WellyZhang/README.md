@@ -1,4 +1,5 @@
-# Introduction
+
+# <a name='top'>Introduction</a>
 This is a brief English introduction to `GitHub Flavored Markdown`, or `GFM`. Markdown has been adopted for its implicity and expressiveness over a wide range of applications and the specfic version from GitHub adds a myriad of extensions to it, only making it more than popular among programmers.
 
 Now we are going to explore a little bit in depth of it.
@@ -37,33 +38,23 @@ while use /n between lines for hard break such as
 this.
 
 ## Links
-###链接外部URL
-[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")   语法如下：
+Bear in mind that links could be combined with tricks from Headers and Text
+### Inline Links
+Wrap the text in bracets([]) and links in parenthesis(()) with optional floating "strings" seperated by a blank.  
+If you still don't understand it, [**Google it**](http://www.google.com "Google").
 ```
 [我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
 ```
-###链接的另一种写法
-[我的博客][id]  
+### Reference Links
+Here the link is actually a reference to another place in the document with the same contents as those in the parenthesis in the Inline Link grammer, impiled by the square brackets following the [text][text link].
+[text link]: http://www.google.com "Google"
 
-[id]:http://blog.csdn.net/guodongxiaren "悬停显示"   
-语法如下：
-```
-[我的博客][id]
-[id]:http://blog.csdn.net/guodongxiaren "悬停显示"
-```
-中括号[ ]里的id，可以是数字，字母等的组合。这两行可以不连着写，**一般把第二行的链接统一放在文章末尾**，id上下对应就行了。这样正文看起来会比较干净。
+### Links in the Repo
+Links could be incomplete with file-system-like paths such as  
+[Emoji](./emoji.md) or [Emoji](emoji.md)
 
-###链接本仓库里的URL
-[Book](./Book)
-语法如下：
-```
-[Book](./Book)
-```
-如果文件要引用的文件不存在，则待点击的文本为红色。引用的文件存在存在则文本为蓝色。
-###锚点
-我们可以使用HTML的锚点标签（`#`）来设置锚点：[回到目录](#index)  
-但其实呢，每一个标题都是一个锚点，不需要用标签来指定，比如我们 [回到顶部](#TEST)
-不过不幸的是，由于对中文支持的不好，所以中文标题貌似是不能视作标签的。
+### Anchors as Links
+Use HTML # to set anchors, for example your intention to return to the [top](#top) now.
 
 ##<a name="pic"/>显示图片
 ###来源于网络的图片
