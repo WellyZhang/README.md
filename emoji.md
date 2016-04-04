@@ -2,7 +2,7 @@
 Use emoji code to display emoji  
 E.g. `:blush:` :blush:
 
-## Facial Expressions
+## People
 
 |syntax|preview|syntax|preview|syntax|preview|
 |:-------:|:---:|:------:|:-----:|:------:|:---:|
@@ -208,7 +208,7 @@ E.g. `:blush:` :blush:
 |`:sweet_potato:`|:sweet_potato:|`:eggplant:`|:eggplant:|`:tomato:`|:tomato:|
 |`:corn:`|:corn:||||||
 
-## Locations
+## Placecs
 
 |syntax|preview|syntax|preview|syntax|preview|
 |:-------:|:---:|:------:|:-----:|:------:|:-----:|
