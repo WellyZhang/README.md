@@ -1,4 +1,4 @@
-
+# README Markdown
 # <a name='top'>Introduction</a>
 This is a brief English introduction to `GitHub Flavored Markdown`, or `GFM`. Markdown has been adopted for its implicity and expressiveness over a wide range of applications and the specfic version from GitHub adds a myriad of extensions to it, only making it more than popular among programmers.
 
@@ -87,7 +87,7 @@ Plese note to indent one more space than the preceding one.
 ### Numbering
 \* could be replaced by a number following by a dot and a blank space. Similar hierarchy is also available, just remember every level starts with 1\.  
 
-1. Place  
+1. Please  
  1. Do not 
    1. Start with 1\.1  
 
@@ -153,4 +153,4 @@ GitHub has a [Emoji cheatsheet](http://www.emoji-cheat-sheet.com), but for your 
 
 # Acknowledgement
 
-I'm grateful for developers of [Markdown Tutorial](http://www.markdowntutorial.com/) which provides basics and fundamentals on how to write a startup Markdown file, @guodongxiaren for his thorough explaination of GFM in Chinese and authors of the Markdown Cheat Sheet whose summarization is right to the point.
+I'm grateful for developers of [Markdown Tutorial](http://www.markdowntutorial.com/) which provides basics and fundamentals on how to write a startup Markdown file, guodongxiaren for his thorough explaination of GFM in Chinese and authors of the Markdown Cheat Sheet whose summarization is right to the point.
